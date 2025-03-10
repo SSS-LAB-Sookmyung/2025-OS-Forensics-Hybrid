@@ -79,6 +79,7 @@
   - ⚫️ **특정 파일 형식 집중 평가:** SAFEDOCS > PDF, FILETYPES1 > 특정 파일 형식
 </br>
 </br>
+
 - 🔴 **Govdocs1**
   - ➤ 약 100만 개의 다양한 문서 파일로 구성된 데이터셋으로, 연구 및 테스트 목적으로 널리 사용된다.
   - ➤ 다양한 파일 형식을 포함하고 있어 복구 도구의 전반적인 성능 평가에 적합하다.
@@ -112,6 +113,7 @@
 📑 **분석 보고서 ➤** https://digitalcorpora.org/corpora/file-corpora/files/govdocs1-simple-statistical-report/
 </br>
 </br>
+
 - **Full Dataset**
   - ➤ 각각 1,000개의 파일이 존재하는 1,000개의 디렉터리
   - **Link** ➤ http://downloads.digitalcorpora.org/corpora/files/govdocs1/
