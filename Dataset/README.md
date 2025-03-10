@@ -56,9 +56,8 @@
 </br></br>
 **2-2. Generating Data**
 </br>
-> **[Type]**
-</br>
->> **Document:** .docx / .hwpx / .pdf / .txt / .xlsx / ...
+- **[Type]**
+  - **Document:** .docx / .hwpx / .pdf / .txt / .xlsx / ...
 </br>
 >> **Image:** .jpg / .png / .gif / ...
 </br>
