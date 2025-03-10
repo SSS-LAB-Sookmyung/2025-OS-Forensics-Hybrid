@@ -1,5 +1,3 @@
-<div align="center">
-
 # 1. Open Dataset
 
 **1️⃣ GovData & NIST CFReDS Project**
@@ -41,31 +39,31 @@
 </br>
 **[Scenario]**
 </br>
-1️⃣ 일반적인 삭제 (rm, unlink, 휴지통으로 이동, ...)
+</tab>1️⃣ 일반적인 삭제 (rm, unlink, 휴지통으로 이동, ...)
 </br>
-2️⃣ 휴지통 비우기 (Shift+Del, ...)
+</tab>2️⃣ 휴지통 비우기 (Shift+Del, ...)
 </br>
-3️⃣ 파일시스템 포맷 (mkfs, ...)
+</tab>3️⃣ 파일시스템 포맷 (mkfs, ...)
 </br>
-4️⃣ 디스크 파티션 삭제 (fdisk, gdisk, ...)
+</tab>4️⃣ 디스크 파티션 삭제 (fdisk, gdisk, ...)
 </br>
-5️⃣ 스토리지 덮어쓰기 (dd, shred, srm, ...)
+</tab>5️⃣ 스토리지 덮어쓰기 (dd, shred, srm, ...)
 </br></br>
 **2-2. Generating Data**
 </br>
 **[Type]**
 </br>
-**<Document>** .docx / .hwpx / .pdf / .txt / .xlsx / ...
+**Document:** .docx / .hwpx / .pdf / .txt / .xlsx / ...
 </br>
-**<Image>** .jpg / .png / .gif / ...
+**Image:** .jpg / .png / .gif / ...
 </br>
-**<Video>** .mp4 / .avi / .mov / .wmv / ...
+**Video:** .mp4 / .avi / .mov / .wmv / ...
 </br>
-**<Audio>** .mp3 / .wav / ...
+**Audio:** .mp3 / .wav / ...
 </br>
-**<Database>** .csv / ...
+**Database:** .csv / ...
 </br>
-**<Log>** .log / ...
+**Log:** .log / ...
 </br>
 
 </div>
@@ -74,15 +72,17 @@
 
 </br>
 
-**<Link>** https://digitalcorpora.org/corpora/file-corpora
+**Link ➤** https://digitalcorpora.org/corpora/file-corpora
 </br>
-**<Summary>**
+</br>
+**[Summary]**
 </br>
 ⚫️ **다양한 파일 형식 평가:** Govdocs1
 </br>
 ⚫️ **특정 파일 형식 집중 평가:** SAFEDOCS > PDF, FILETYPES1 > 특정 파일 형식
 </br>
-**🔴 <Govdocs1>**
+</br>
+**🔴 Govdocs1**
 </br>
 ➤ 약 100만 개의 다양한 문서 파일로 구성된 데이터셋으로, 연구 및 테스트 목적으로 널리 사용된다.
 </br>
@@ -94,7 +94,8 @@
 </br>
 ✔️ 연구 친화적: 자유롭게 재배포 가능하며 연구 목적에 적합
 </br>
-**<SAFEDOCS (CC-MAIN-2021-31-PDF-UNTRUNCATED)>**
+</br>
+**SAFEDOCS (CC-MAIN-2021-31-PDF-UNTRUNCATED)**
 </br>
 ➤ 2021년 7월과 8월에 수집된 약 800만 개의 PDF 파일로 구성된 데이터셋이다.
 </br>
@@ -106,7 +107,8 @@
 </br>
 ✔️ 메타데이터 제공: 각 파일에 대한 상세한 메타데이터 포함
 </br>
-**<FILETYPES1>**
+</br>
+**FILETYPES1**
 </br>
 ➤ 다양한 파일 형식의 샘플을 포함한 데이터셋으로, 특정 파일 형식의 복구 성능을 평가하는 데 유용하다.
 </br>
@@ -125,27 +127,31 @@
 
 </br>
 
-**📑 분석 보고서:** https://digitalcorpora.org/corpora/file-corpora/files/govdocs1-simple-statistical-report/
+📑 **분석 보고서 ➤** https://digitalcorpora.org/corpora/file-corpora/files/govdocs1-simple-statistical-report/
 </br>
-**<1. Full Dataset>**
+</br>
+**1. Full Dataset**
 </br>
 ➤ 각각 1,000개의 파일이 존재하는 1,000개의 디렉터리
 </br>
 **Link** ➤ http://downloads.digitalcorpora.org/corpora/files/govdocs1/
 </br>
-**<2. ZIP Dataset>**
+</br>
+**2. ZIP Dataset**
 </br>
 ➤ 각각 1,000개의 파일이 존재하는 1,000개의 ZIP 파일
 </br>
 **Link** ➤ http://downloads.digitalcorpora.org/corpora/files/govdocs1/zipfiles/
 </br>
-**<3. JPEG Dataset>**
+</br>
+**3. JPEG Dataset**
 </br>
 ➤ 109,282개의 JPEG 파일이 존재하는 tar 파일
 </br>
 **Link** ➤ http://downloads.digitalcorpora.org/corpora/files/govdocs1/files.jpeg.tar
 </br>
-**<4. Random Dataset>**
+</br>
+**4. Random Dataset**
 </br>
 ➤ 10개의 하위 집합 'threads'(subset0.zip ~ subset9.zip)의 집합으로, 각 하위 집합에는 무작위로 선택된 1000개의 문서가 존재
 </br>
@@ -154,13 +160,14 @@
 **Link** ➤ https://corp.digitalcorpora.org/corpora/files/govdocs1/threads/
 </br>
 </br>
-**<+> Feature List**
+**(+) Feature List**
 </br>
 ➤ 상황에 맞는 적절한 feature list
 </br>
 **Link** ➤ https://corp.digitalcorpora.org/corpora/files/2012-feature-list/
 </br>
-**<+> Other Metadata**
+</br>
+**(+) Other Metadata**
 </br>
 **MD5 - Link** ➤ https://digitalcorpora.s3.amazonaws.com/corpora/files/govdocs1/zipfilelist-md5.txt
 </br>
