@@ -25,7 +25,6 @@
 ➤ AI 도입의 차이
 
 </br>
-</br>
 
 ## Summary of Projects
 
@@ -37,7 +36,7 @@
 2️⃣ **여대학원생 공학연구팀제 심화과정** 
 </br>➤ 기존의 파일 복구 기법을 분석하여 한계점 규명 및 문제 정의
 </br>➤ AI 기반의 삭제되어 조각난 파일 복구 모델 설계 및 학습
-  </br>(메타데이터 기반 + 파일 시그니처 기반 + AI)
+</br>  (메타데이터 기반 + 파일 시그니처 기반 + AI)
 </br>➤ 파일 무결성 검증 프로세스 구축 및 복구 성능 평가
 
 </div>
@@ -47,7 +46,7 @@
 
 | 주차 | 일자                     | 내용                                                                                      |
 |:---:|:---------------:|------------------------------------------------------------------------------------------|
-|  1  |  03.05 ~ 03.11  | <strong>기존 복구 도구 분석</strong> <br/> foremost, scalpel, testdisk, extundelete 조사 |
+|  1  |  03.05 ~ 03.11  | <strong>기존 복구 도구 분석 및 데이터셋 조사</strong> <br/> Tool > foremost, scalpel, testdisk, extundelete |
 | 2    | 24.12.30 ~ 25.01.05      | <strong>[OS] 학습 및 자료 제작</strong> <br/> Chapter 14 - 파일 시스템 구현               |
 | 3    | 25.01.06 ~ 25.01.12      | <strong>[OS] 학습 및 자료 제작</strong> <br/> Chapter 15 - 파일 시스템 내부구조           |
 | 4    | 25.01.13 ~ 25.01.19      | <strong>[PL] 학습 및 자료 제작</strong> <br/> Chapter 09 - The Extended Filesystem Family <br/> > 9.2 Second Extended Filesystem |
