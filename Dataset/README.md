@@ -78,7 +78,6 @@
   - ⚫️ **다양한 파일 형식 평가:** Govdocs1
   - ⚫️ **특정 파일 형식 집중 평가:** SAFEDOCS > PDF, FILETYPES1 > 특정 파일 형식
 </br>
-</br>
 
 - 🔴 **Govdocs1**
   - ➤ 약 100만 개의 다양한 문서 파일로 구성된 데이터셋으로, 연구 및 테스트 목적으로 널리 사용된다.
@@ -87,7 +86,7 @@
   - ✔️ 대규모 데이터셋: 총 100만 개의 파일로 구성
   - ✔️ 연구 친화적: 자유롭게 재배포 가능하며 연구 목적에 적합
 </br>
-</br>
+
 - 🟡 **SAFEDOCS (CC-MAIN-2021-31-PDF-UNTRUNCATED)**
   - ➤ 2021년 7월과 8월에 수집된 약 800만 개의 PDF 파일로 구성된 데이터셋이다.
   - ➤ PDF 파일 복구 도구의 성능을 집중적으로 평가하고자 할 때 유용하다.
@@ -95,7 +94,7 @@
   - ✔️ 대규모 PDF 컬렉션: 800만 개 이상의 PDF 파일로 구성
   - ✔️ 메타데이터 제공: 각 파일에 대한 상세한 메타데이터 포함
 </br>
-</br>
+
 - 🟡 **FILETYPES1**
   - ➤ 다양한 파일 형식의 샘플을 포함한 데이터셋으로, 특정 파일 형식의 복구 성능을 평가하는 데 유용하다.
   - ➤ 각 파일 형식별로 샘플이 정리되어 있어 선택적으로 활용할 수 있다.
@@ -112,34 +111,33 @@
 
 📑 **분석 보고서 ➤** https://digitalcorpora.org/corpora/file-corpora/files/govdocs1-simple-statistical-report/
 </br>
-</br>
 
 - **Full Dataset**
   - ➤ 각각 1,000개의 파일이 존재하는 1,000개의 디렉터리
   - **Link** ➤ http://downloads.digitalcorpora.org/corpora/files/govdocs1/
 </br>
-</br>
+
 - **ZIP Dataset**
   - ➤ 각각 1,000개의 파일이 존재하는 1,000개의 ZIP 파일
   - **Link** ➤ http://downloads.digitalcorpora.org/corpora/files/govdocs1/zipfiles/
 </br>
-</br>
+
 - **JPEG Dataset**
   - ➤ 109,282개의 JPEG 파일이 존재하는 tar 파일
   - **Link** ➤ http://downloads.digitalcorpora.org/corpora/files/govdocs1/files.jpeg.tar
 </br>
-</br>
+
 - **Random Dataset**
   - ➤ 10개의 하위 집합 'threads'(subset0.zip ~ subset9.zip)의 집합으로, 각 하위 집합에는 무작위로 선택된 1000개의 문서가 존재
   - ➤ 하나의 하위 집합은 개발용으로, 다른 하위 집합은 테스트용으로 사용하도록 권장
   - **Link** ➤ https://corp.digitalcorpora.org/corpora/files/govdocs1/threads/
 </br>
-</br>
+
 - **(+) Feature List**
   - ➤ 상황에 맞는 적절한 feature list
   - **Link** ➤ https://corp.digitalcorpora.org/corpora/files/2012-feature-list/
 </br>
-</br>
+
 - **(+) Other Metadata**
   - **MD5 - Link** ➤ https://digitalcorpora.s3.amazonaws.com/corpora/files/govdocs1/zipfilelist-md5.txt
   - **SHA1 - Link** ➤ https://digitalcorpora.s3.amazonaws.com/corpora/files/govdocs1/zipfilelist-sha1.txt
