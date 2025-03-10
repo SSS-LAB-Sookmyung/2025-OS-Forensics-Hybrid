@@ -27,11 +27,11 @@
 ➤ 디지털 포렌식 연구 워크샵에서 제공하는 데이터
 </br>
 **[Link]** https://dfrws.org
-</br>
+</br></br>
 
 </div>
 
-## 2. Homegrown Dataset
+# 2. Homegrown Dataset
 </br>
 
 **2-1. Setting Experiments**
@@ -44,15 +44,15 @@
 </br>
 **[Scenario]**
 </br>
-1. 일반적인 삭제 (`rm`, `unlink`, 휴지통으로 이동, ...)
+1️⃣ 일반적인 삭제 (`rm`, `unlink`, 휴지통으로 이동, ...)
 </br>
-2. 휴지통 비우기 (`Shift+Del`, ...)
+2️⃣ 휴지통 비우기 (`Shift+Del`, ...)
 </br>
-3. 파일시스템 포맷 (`mkfs`, ...)
+3️⃣ 파일시스템 포맷 (`mkfs`, ...)
 </br>
-4. 디스크 파티션 삭제 (`fdisk`, `gdisk`, ...)
+4️⃣ 디스크 파티션 삭제 (`fdisk`, `gdisk`, ...)
 </br>
-5. 스토리지 덮어쓰기 (`dd`, `shred`, `srm`, ...)
+5️⃣ 스토리지 덮어쓰기 (`dd`, `shred`, `srm`, ...)
 </br></br>
 **2-2. Generating Data**
 </br>
