@@ -57,12 +57,12 @@
 **2-2. Generating Data**
 </br>
 - **[Type]**
-  - Document: .docx / .hwpx / .pdf / .txt / .xlsx / ...
-  - Image: .jpg / .png / .gif / ...
-  - Video: .mp4 / .avi / .mov / .wmv / ...
-  - Audio: .mp3 / .wav / ...
-  - Database: .csv / ...
-  - Log: .log / ...
+  - Document: `.docx` / `.hwpx` / `.pdf` / `.txt` / `.xlsx` / ...
+  - Image: `.jpg` / `.png` / `.gif` / ...
+  - Video: `.mp4` / `.avi` / `.mov` / `.wmv` / ...
+  - Audio: `.mp3` / `.wav` / ...
+  - Database: `.csv` / ...
+  - Log: `.log` / ...
 </br>
 
 </div>
@@ -79,7 +79,7 @@
   - ⚫️ **특정 파일 형식 집중 평가:** SAFEDOCS > PDF, FILETYPES1 > 특정 파일 형식
 </br>
 </br>
-- **🔴 Govdocs1**
+- 🔴 **Govdocs1**
   - ➤ 약 100만 개의 다양한 문서 파일로 구성된 데이터셋으로, 연구 및 테스트 목적으로 널리 사용된다.
   - ➤ 다양한 파일 형식을 포함하고 있어 복구 도구의 전반적인 성능 평가에 적합하다.
   - ✔️ 다양한 파일 형식: 문서, 이미지, 스프레드시트 등 다양한 파일 포함
@@ -87,7 +87,7 @@
   - ✔️ 연구 친화적: 자유롭게 재배포 가능하며 연구 목적에 적합
 </br>
 </br>
-- **SAFEDOCS (CC-MAIN-2021-31-PDF-UNTRUNCATED)**
+- 🟡 **SAFEDOCS (CC-MAIN-2021-31-PDF-UNTRUNCATED)**
   - ➤ 2021년 7월과 8월에 수집된 약 800만 개의 PDF 파일로 구성된 데이터셋이다.
   - ➤ PDF 파일 복구 도구의 성능을 집중적으로 평가하고자 할 때 유용하다.
   - ✔️ 최신 데이터: 2021년에 수집된 최신 PDF 파일 포함
@@ -95,7 +95,7 @@
   - ✔️ 메타데이터 제공: 각 파일에 대한 상세한 메타데이터 포함
 </br>
 </br>
-- **FILETYPES1**
+- 🟡 **FILETYPES1**
   - ➤ 다양한 파일 형식의 샘플을 포함한 데이터셋으로, 특정 파일 형식의 복구 성능을 평가하는 데 유용하다.
   - ➤ 각 파일 형식별로 샘플이 정리되어 있어 선택적으로 활용할 수 있다.
   - ✔️ 다양한 파일 형식 샘플: ASP, AVI, DLL, EXE, JPG, MP3 등 다양한 파일 형식 포함
