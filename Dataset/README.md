@@ -35,6 +35,7 @@
 
 ## 2-1. Setting Experiments
 </br>
+
 **[FS]** ext4
 </br>
 **[OS]** Linux_Ubuntu 22.04 LTS
@@ -55,7 +56,7 @@
 </br></br>
 **2-2. Generating Data**
 </br>
-- [Type]
+- **[Type]**
   - Document: .docx / .hwpx / .pdf / .txt / .xlsx / ...
   - Image: .jpg / .png / .gif / ...
   - Video: .mp4 / .avi / .mov / .wmv / ...
