@@ -1,0 +1,14 @@
+Description: add GCC hardening to Makefile.
+Author: Joao Eriberto Mota Filho <eriberto@debian.org>
+Last-Update: 2015-02-01
+Index: scalpel-1.60/Makefile
+===================================================================
+--- scalpel-1.60.orig/Makefile
++++ scalpel-1.60/Makefile
+@@ -1,5 +1,5 @@
+ CC = gcc
+-CC_OPTS = -Wall -O2 
++CC_OPTS = $(CFLAGS) $(LDFLAGS) $(CPPFLAGS)
+ GOAL = scalpel
+ 
+ CC += $(CC_OPTS) 

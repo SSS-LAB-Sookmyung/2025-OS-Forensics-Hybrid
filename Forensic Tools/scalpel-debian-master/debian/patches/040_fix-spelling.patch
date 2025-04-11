@@ -1,0 +1,31 @@
+Description: fix a spelling error in final binary.
+Author: Joao Eriberto Mota Filho <eriberto@debian.org>
+Last-Update: 2016-11-12
+Index: scalpel-1.60/files.c
+===================================================================
+--- scalpel-1.60.orig/files.c
++++ scalpel-1.60/files.c
+@@ -49,20 +49,20 @@ int outputDirectoryOK(char *dir) {
+ 	if (mkdir(dir,newDirectoryMode)) {
+ #endif	
+ 	  
+-	  fprintf (stderr,"An error occured while trying to create %s - %s\n",
++	  fprintf (stderr,"An error occurred while trying to create %s - %s\n",
+ 		   dir,strerror(errno));
+ 	  return FALSE;
+ 	}
+ 	
+ 	// try to open directory
+ 	if ((temp = opendir(dir)) == NULL) {
+-	  fprintf (stderr,"An error occured while trying to open %s - %s\n",
++	  fprintf (stderr,"An error occurred while trying to open %s - %s\n",
+ 		   dir,strerror(errno));
+ 	  return FALSE;
+ 	}
+       }
+       else {
+-	fprintf (stderr,"An error occured while trying to open %s - %s\n",
++	fprintf (stderr,"An error occurred while trying to open %s - %s\n",
+ 		 dir,strerror(errno));
+ 	return FALSE;
+       }

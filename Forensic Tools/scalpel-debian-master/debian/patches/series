@@ -1,0 +1,6 @@
+010_add-GCC-hardening.patch
+020_fix-config.patch
+030_improve-error-message.patch
+040_fix-spelling.patch
+050_fix-jpg-remove-spaces.patch
+070_fix-cross-compilation

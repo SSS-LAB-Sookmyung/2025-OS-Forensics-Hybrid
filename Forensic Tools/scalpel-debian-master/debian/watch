@@ -1,0 +1,4 @@
+version=4
+opts="mode=git, pgpmode=none, pretty=1.60+git%cd.%h" \
+      https://github.com/nolaforensix/scalpel-1.60 \
+      HEAD

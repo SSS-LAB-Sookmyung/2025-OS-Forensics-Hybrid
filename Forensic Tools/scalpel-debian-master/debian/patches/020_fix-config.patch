@@ -1,0 +1,31 @@
+Description: make /etc/scalpel the default path to config file.
+Author: Danny van der Meeren <danny@illogic.nl>
+Last-Update: 2006-12-06
+Index: scalpel-1.60/scalpel.c
+===================================================================
+--- scalpel-1.60.orig/scalpel.c
++++ scalpel-1.60/scalpel.c
+@@ -500,8 +500,8 @@ void convertFileNames(struct scalpelStat
+   realpath(state->outputdirectory,fn);
+   strncpy(state->outputdirectory,fn,MAX_STRING_LENGTH);
+ 
+-  realpath(state->conffile,fn);
+-  strncpy(state->conffile,fn,MAX_STRING_LENGTH);
++//  realpath(state->conffile,fn);
++//  strncpy(state->conffile,fn,MAX_STRING_LENGTH);
+ }
+ 
+ 
+Index: scalpel-1.60/scalpel.h
+===================================================================
+--- scalpel-1.60.orig/scalpel.h
++++ scalpel-1.60/scalpel.h
+@@ -189,7 +189,7 @@ extern int  errno;
+ #define SCALPEL_NOEXTENSION '\xFF'
+ 
+ #define SCALPEL_DEFAULT_WILDCARD       '?'
+-#define SCALPEL_DEFAULT_CONFIG_FILE    "scalpel.conf"
++#define SCALPEL_DEFAULT_CONFIG_FILE    "/etc/scalpel/scalpel.conf"
+ 
+ #define SCALPEL_DEFAULT_OUTPUT_DIR     "scalpel-output"
+ 

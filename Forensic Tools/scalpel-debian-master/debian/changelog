@@ -1,0 +1,172 @@
+scalpel (1.60+git20240110.6960eb2-1) unstable; urgency=medium
+
+  * Update upstream URLs
+  * New upstream version 1.60+git20240110.6960eb2 (Closes: #1060459)
+  * Drop patches applied upstream
+  * Misc updates: README was renamed, update author email address
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 27 Feb 2024 08:40:12 +0700
+
+scalpel (1.60-10) unstable; urgency=medium
+
+  * Team upload.
+  * debian/control: bumped Standards-Version to 4.6.1.
+  * debian/copyright:
+      - Converted the last paragraph of the GPL-2 in a comment.
+      - Updated packaging copyright data.
+  * debian/patches/:
+      - Renamed 60_fix-cross-compilation to 070_fix-cross-compilation.
+      - Added a leading zero to each patch name.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Mon, 26 Dec 2022 15:32:36 -0300
+
+scalpel (1.60-9.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  [Jan Gruber]
+  * debian/patches/:
+    - 60_fix-cross-compilation: avoid combining CFLAGS into CC, which causes
+      cross-compilation errors. Thanks to Helmut Grohne <helmut@subdivi.de>.
+      (Closes: #980064)
+  * debian/control:
+    - Bumped Standards-Version to 4.5.1
+    - Bumped DH version to 13
+
+ -- Jan Gruber <j4n6ru@gmail.com>  Mon, 17 May 2021 12:26:03 +0200
+
+scalpel (1.60-9+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * debian/patches/60_va_copy.patch: fix the va_list usage in
+    setProgramName(). (Closes: #1016560).
+
+ -- Aurelien Jarno <aurel32@debian.org>  Thu, 11 Aug 2022 15:45:53 +0200
+
+scalpel (1.60-9) unstable; urgency=medium
+
+  * Team upload.
+  * debian/control: removed empty field Uploaders.
+  * debian/rules: added DEB_CFLAGS_MAINT_APPEND variable to fix a FTBFS with
+    GCC 10. It will solve #957776.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Mon, 20 Apr 2020 23:01:23 -0300
+
+scalpel (1.60-8) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Joao Eriberto Mota Filho ]
+  * debian/control: removed my name from Uploaders field.
+  * debian/copyright: updated packaging copyright years.
+
+  [ Samuel Henrique ]
+  * Configure git-buildpackage for Debian.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Thu, 13 Feb 2020 17:16:30 -0300
+
+scalpel (1.60-7) unstable; urgency=medium
+
+  [ Joao Eriberto Mota Filho ]
+  * Using new DH level format. Consequently:
+      - debian/compat: removed.
+      - debian/control: changed from 'debhelper' to 'debhelper-compat' in
+        Build-Depends field and bumped level to 12.
+  * debian/control:
+      - Added 'Rules-Requires-Root: no' to source stanza.
+      - Bumped Standards-Version to 4.5.0.
+  * debian/copyright:
+      - Added packaging rights for Samuel Henrique.
+      - Updated packaging copyright years.
+
+  [ Samuel Henrique ]
+  * Add salsa-ci.yml.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Fri, 07 Feb 2020 09:28:58 -0300
+
+scalpel (1.60-6) unstable; urgency=medium
+
+  * debian/tests/control: using a Restriction field instead of '2>'.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Mon, 03 Dec 2018 21:54:18 -0200
+
+scalpel (1.60-5) unstable; urgency=medium
+
+  [ Joao Eriberto Mota Filho ]
+  * Migrated DH level to 11.
+  * debian/control: bumped Standards-Version to 4.2.1.
+  * debian/copyright:
+      - Added rights for Raphaël Hertzog.
+      - Updated packaging copyright years.
+      - Using a secure copyright format in URI.
+  * debian/patches/50_fix-jpg-remove-spaces.patch: added to fix the jpg
+    recovery. Thanks to Isaac Schemm <isaacschemm@gmail.com>. Also remove
+    some extra blank spaces and tabs. (Closes: #631850)
+  * debian/source/include-binaries: added to control debian/tests/lua.img.
+  * debian/tests/*: added to perform tests.
+
+  [ Raphaël Hertzog ]
+  * debian/control:
+      - Changed Vcs-* URLs to salsa.debian.org.
+      - Updated team maintainer address to Debian Security Tools
+        <team+pkg-security@tracker.debian.org>.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Sun, 16 Sep 2018 16:05:12 -0300
+
+scalpel (1.60-4) unstable; urgency=medium
+
+  * Bumped DH level to 10.
+  * debian/control:
+      - Bumped Standards-Version to 3.9.8.
+      - Updated the Vcs-* fields to use https instead of http and git.
+  * debian/copyright:
+      - Added a new additional email address for upstream.
+      - Dropped dot-zero from GPL license short name.
+      - Updated the packaging copyright years.
+  * debian/patches/:
+      - Added 40_fix-spelling.patch to fix a spelling error in final binary.
+      - Changes:
+          ~ Makefile: renamed to 10_add-GCC-hardening.patch.
+          ~ fix-config-path: renamed to 20_fix-config.patch.
+          ~ improve_error_message: renamed to 30_improve-error-message.patch.
+  * debian/watch: bumped to version 4.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Sat, 12 Nov 2016 23:21:47 -0200
+
+scalpel (1.60-3) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Sun, 03 May 2015 23:30:17 -0300
+
+scalpel (1.60-2) experimental; urgency=medium
+
+  * New maintainer and co-maintainer. Thanks a lot to Danny van der Meeren for
+      your nice work over this package.
+  * Migrations:
+      - debian/copyright to 1.0 format.
+      - debian/rules to new (reduced) format.
+      - DebSrc to 3.0 version.
+      - DH level to 9.
+      - Standards-Version to 3.9.6.
+  * debian/control:
+      - Added the Homepage field.
+      - Added the ${misc:Depends} to Depends field.
+      - Added the VCS-* fields to control the changes in packaging.
+      - Improved the short and long descriptions.
+  * debian/copyright: updated.
+  * debian/manpages: added to install the upstream manpage.
+  * debian/patches/:
+      - fix-config-patch: added to avoid direct changes in upstream source code.
+      - improve_error_message: improve error message about conf file.
+      - Makefile: added to implement the GCC hardening.
+  * debian/watch: added a fake site to explain about the current status of the
+      original upstream homepage.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Sun, 01 Feb 2015 20:26:23 -0200
+
+scalpel (1.60-1) unstable; urgency=low
+
+  * Changed scalpel.h and scalpel.c to take default config from /etc/scalpel
+  * Initial release (Closes: #402341)
+
+ -- Danny van der Meeren <danny@illogic.nl>  Sat,  9 Dec 2006 18:20:32 +0100

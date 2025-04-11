@@ -1,0 +1,2 @@
+Test-Command: scalpel -c debian/tests/scalpel.conf debian/tests/lua.img
+Restrictions: allow-stderr

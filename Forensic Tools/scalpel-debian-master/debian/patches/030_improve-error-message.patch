@@ -1,0 +1,17 @@
+Description: improve the error message about the configuration file.
+Author: Joao Eriberto Mota Filho <eriberto@debian.org>
+Last-Update: 2015-02-01
+Index: scalpel-1.60/helpers.c
+===================================================================
+--- scalpel-1.60.orig/helpers.c
++++ scalpel-1.60/helpers.c
+@@ -315,7 +315,8 @@ void handleError(struct scalpelState *st
+     scalpelLog(state,
+ 		 "ERROR: The configuration file didn't specify any file types to carve.\n");
+     scalpelLog(state, "(If you're using the default configuration file, you'll have to\n");
+-    scalpelLog(state, "uncomment some of the file types.)\n");
++    scalpelLog(state, "uncomment some of the file types.)\n\n");
++    scalpelLog(state, "See /etc/scalpel/scalpel.conf.\n");
+     closeFile(state->auditFile);
+     exit (-1);
+ 
